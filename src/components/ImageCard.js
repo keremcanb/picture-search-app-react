@@ -10,9 +10,7 @@ const ImageCard = ({ image }) => {
 
   const display = () => {
     const height = imageRef.current.clientHeight;
-
     const grid = Math.ceil(height / 10);
-
     setSpans(grid);
   };
 

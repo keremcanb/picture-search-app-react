@@ -10,7 +10,6 @@ const App = () => {
     const response = await unsplash.get('/search/photos', {
       params: { query: term },
     });
-
     setImages(response.data.results);
   };
 
