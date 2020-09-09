@@ -14,11 +14,9 @@ const SearchBar = ({ onSearchSubmit }) => {
         <div className='field'>
           <label>Image Search</label>
           <input
-            type='text'
             value={term}
-            onChange={(e) => {
-              setTerm(e.target.value);
-            }}
+            onChange={(e) => setTerm(e.target.value)}
+            type='text'
           />
         </div>
       </form>
